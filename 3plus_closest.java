@@ -13,9 +13,7 @@ class Solution {
                 // If this sum is closer, update closestSum
                 if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
                     closestSum = currentSum;
-                }
-
-                // Move pointers based on comparison
+                    // Move pointers based on comparison
                 if (currentSum < target) {
                     left++;
                 } else {
